@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contaier{
+    width: 600px;
+    position: relative;
+}
+
+/* Định dạng thẻ */
+.package-card {
+    width: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+}
+
+/* phần đầu */
+.package-header {
+    background: #e30613;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+}
+
+/* tiêu đề */
+.package-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+
+.hot-icon {
+    position: absolute;
+    top: 0px;
+    right: 400px;
+    width: 100px;
+}
+
+/* nội dung */
+.package-content {
+    padding: 15px;
+}
+
+
+.highlight {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+/* khu vực nút chọn */
+.package-buttons {
+    padding: 10px;
+}
+
+/* Đăng ký */
+.register {
+    width: 80%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #e30613, #ff5733);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    margin-bottom:10px ;
+}
+
+.register:hover {
+    background: linear-gradient(to right, #c30511, #e04e30);
+}
+
+/* icon */
+.register i {
+    margin-right: 5px;
+    /* khoảng cách icon đến chữ */
+}
+
+/* chi tiết */
+.detail {
+    width: 150px;
+    padding: 8px;
+    border: 2px solid #e30613;
+    border-radius: 30px;
+    background: white;
+    color: #e30613;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.detail:hover {
+    background: #e30613;
+    color: white;
+}
+
+/* icon */
+.detail i {
+    margin-right: 5px;
+}
+
+/* đường kẻ */
+.line {
+    border: 1px solid rgb(202, 200, 200);
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* mỗi dòng */
+.text {
+    font-size: 18px;
+    color: #555;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+span{
+    font-size: 20px;
+}
+
+strong{
+    font-size: 20px;
+    color: gray;
+}body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contaier{
+    width: 600px;
+    position: relative;
+}
+
+/* Định dạng thẻ */
+.package-card {
+    width: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+}
+
+/* phần đầu */
+.package-header {
+    background: #e30613;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+}
+
+/* tiêu đề */
+.package-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+
+.hot-icon {
+    position: absolute;
+    top: 0px;
+    right: 400px;
+    width: 100px;
+}
+
+/* nội dung */
+.package-content {
+    padding: 15px;
+}
+
+
+.highlight {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+/* khu vực nút chọn */
+.package-buttons {
+    padding: 10px;
+}
+
+/* Đăng ký */
+.register {
+    width: 80%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #e30613, #ff5733);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    margin-bottom:10px ;
+}
+
+.register:hover {
+    background: linear-gradient(to right, #c30511, #e04e30);
+}
+
+/* icon */
+.register i {
+    margin-right: 5px;
+    /* khoảng cách icon đến chữ */
+}
+
+/* chi tiết */
+.detail {
+    width: 150px;
+    padding: 8px;
+    border: 2px solid #e30613;
+    border-radius: 30px;
+    background: white;
+    color: #e30613;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.detail:hover {
+    background: #e30613;
+    color: white;
+}
+
+/* icon */
+.detail i {
+    margin-right: 5px;
+}
+
+/* đường kẻ */
+.line {
+    border: 1px solid rgb(202, 200, 200);
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* mỗi dòng */
+.text {
+    font-size: 18px;
+    color: #555;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+span{
+    font-size: 20px;
+}
+
+strong{
+    font-size: 20px;
+    color: gray;
+}

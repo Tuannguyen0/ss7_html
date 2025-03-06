@@ -1,0 +1,117 @@
+
+.container{
+    width: 30%;
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    padding:10px 0;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.button-inactive{
+    background-color: rgb(241, 212, 192);
+    color: rgb(201, 39, 6);
+    font-size: 10px;
+    padding:2.5px 7px;
+    border-radius:5px ;
+    border: 1px solid rgb(190, 81, 13);
+    width: 50px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.row{
+    display: flex;
+    gap: 7px;
+    padding: 5px 0;
+}
+
+.row-client{
+    color: blue;
+    font-size: 15px;
+}
+
+.row-budget{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+i+ span{
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.both-sides{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin:20px 0 10px 0;
+}
+
+.text{
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.container-loading{
+    width: 100%;
+    height: 5px;
+    background-color: #ffebcd; /* Màu be nhạt */
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.loading{
+    width: 76%; /* Độ dài phần đã load */
+    height: 100%;
+    background-color: #e67e22; /* Màu cam */
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out; /* Hiệu ứng mượt */
+}
+
+
+/* Nhóm ảnh đại diện */
+.avatar-group {
+    position: relative;
+    width: 60px; /* Định nghĩa kích thước chứa 2 ảnh */
+    height: 40px;
+}
+
+.avatar-group img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+    position: absolute;
+    border: none;
+    top: 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.avatar-group img:nth-child(1) {
+    left: 0; /* Ảnh đầu tiên */
+}
+
+.avatar-group img:nth-child(2) {
+    left: 25px; /* Ảnh thứ hai đè lên một phần ảnh đầu */
+}
+
+/* Phần task bên phải */
+.task-info {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 5px;
+}
